@@ -297,8 +297,8 @@
                            (logxor (aref state x y)
                                    (loop for j from 0 below 8
                                          sum (ash (aref padded (+ block-start i j))
-                                                 (* j 8)))))))
-             (keccak-f1600 state))
+                                                 (* j 8))))))
+          do (keccak-f1600 state))
 
     ;; Squeeze phase (only need 32 bytes for Keccak-256)
     (let ((output (make-array 32 :element-type '(unsigned-byte 8))))

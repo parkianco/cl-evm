@@ -94,8 +94,8 @@
   ;; Execution result
   (halted-p nil :type boolean)
   (reverted-p nil :type boolean)
-  (return-value #() :type (vector (unsigned-byte 8)))
-  (return-data #() :type (vector (unsigned-byte 8)))
+  (return-value (make-array 0 :element-type '(unsigned-byte 8)) :type (vector (unsigned-byte 8)))
+  (return-data (make-array 0 :element-type '(unsigned-byte 8)) :type (vector (unsigned-byte 8)))
   (logs nil :type list)
 
   ;; Flags
