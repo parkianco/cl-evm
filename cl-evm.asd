@@ -5,7 +5,7 @@
 
 (asdf:defsystem #:cl-evm
   :description "Standalone EVM bytecode interpreter in pure Common Lisp"
-  :author "CLPIC Project"
+  :author "Parkian Company LLC"
   :license "MIT"
   :version "1.0.0"
   :serial t
