@@ -1,3 +1,6 @@
+;;;; Copyright (c) 2024-2026 Parkian Company LLC. All rights reserved.
+;;;; SPDX-License-Identifier: BSD-3-Clause
+
 ;;;; memory.lisp - EVM Memory Operations
 ;;;;
 ;;;; Implements byte-addressable EVM memory with word-aligned access
