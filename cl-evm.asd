@@ -1,3 +1,6 @@
+;; Copyright (c) 2024-2026 Parkian Company LLC. All rights reserved.
+;; SPDX-License-Identifier: BSD-3-Clause
+
 ;;;; cl-evm.asd - Standalone EVM Bytecode Interpreter
 ;;;;
 ;;;; A pure Common Lisp implementation of the Ethereum Virtual Machine.
@@ -7,7 +10,7 @@
   :description "Standalone EVM bytecode interpreter in pure Common Lisp"
   :author "Parkian Company LLC"
   :license "MIT"
-  :version "1.0.0"
+  :version "0.1.0"
   :serial t
   :components ((:file "package")
                (:module "src"
